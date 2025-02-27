@@ -1,0 +1,124 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: grey; 
+    color: red;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+}
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 150px;
+    
+}
+nav {
+    background-color: silver; 
+    padding: 1px;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    list-style-type: none;
+
+}
+nav ul li {
+    margin: 5px;
+}
+
+nav ul li a {
+    background-color: orangered; 
+    border: 2px solid white;
+    border-radius: 15px;
+    padding: 10px 40px;
+    text-decoration: none;
+    color:black ;
+    font-size: 1.2em;
+
+}
+nav ul li a.active {
+    background-color: orangered; 
+
+}
+
+nav ul li a:hover {
+    background-color: grey;
+
+}
+
+main {
+    text-align: center;
+    padding: 20px;
+    color: white;
+    flex-grow: 1;
+}
+.Fountain {
+    display: block;
+    border: 25px;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 1200px;
+    border: 10px white;
+}
+img {
+    width: 50%;
+    max-width: 600px;
+    border: 5px solid white;
+}
+p {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    position: relative;
+    text-align: justify;
+    font-size: 1em;
+    text-align: center;
+}
+
+h2 {
+text-align: left;
+color: white;
+}
+.p2 {
+    text-align: left;
+    margin: 5px;
+    padding-left: 100px; 
+    flex-grow: 1; 
+    margin-block-start: 5em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: left;
+}
+
+.deserts {
+    width: 40%;
+    max-width: 1000px;
+    margin: 10px auto;
+    border: 15px white;
+    text-align: left;
+}
+footer {
+    background-color: grey; 
+    text-align:center;
+    padding:20px;
+    position:absolute;
+    width:100%;
+    color: #ffffff;
+   }
+   .footer1 {
+    background-color: silver;
+    text-align: center;
+    padding: 2%;
+    color: white;
+}
